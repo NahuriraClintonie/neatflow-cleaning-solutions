@@ -108,11 +108,11 @@ export default function CareersPage() {
                     </ul>
                   </div>
 
-                  {job.salary && (
+                  {/* {job.salary && (
                     <p className="text-sm font-semibold text-primary mb-4 pb-4 border-b border-border">
                       💰 {job.salary}
                     </p>
-                  )}
+                  )} */}
 
                   <Button
                     onClick={() => setSelectedJob(job.id)}
